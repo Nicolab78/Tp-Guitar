@@ -5,7 +5,7 @@ import instrument.Instrument;
 
 public class Mandolin extends Instrument {
 
-    public Mandolin(String serialNumber, double price, MandolinSpec spec) {
-        super(serialNumber, price, spec);
+    public Mandolin(String serialNumber, double price, MandolinSpec mandolinSpec) {
+        super(serialNumber, price, mandolinSpec);
     }
 }
